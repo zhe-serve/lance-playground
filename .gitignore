@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Downloaded video, generated Lance dataset, and preview frames — reproducible
+# via index_video.py / view_frames.py, not worth versioning
+data/
+
+# Local run logs
+streamlit.log
