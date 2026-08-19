@@ -2,6 +2,8 @@
 
 Small experiment: index a video's frames into a [Lance](https://lancedb.github.io/lance/) dataset and browse it with Streamlit.
 
+> This is for demo purposes only — the dataset here is local disk. In production, Lance datasets typically live in an object store (S3, GCS) instead.
+
 ## Setup
 
 ```bash
